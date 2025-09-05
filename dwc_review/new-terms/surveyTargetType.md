@@ -1,19 +1,19 @@
-| definitions | context 1 |
-|-|-|
-| **Context - tables concerned** | <ul><li>survey-target</li></ul> |
-| **key** |  |
-| **title** | Survey Target Type |
-| **description** | A scope a dwc:SurveyTarget describes. |
-| **comments** | Recommended best practice is to use a controlled vocabulary. |
-| **example** | `taxon`; `habitat`; `establishmentMeans`; `growthForm`; `sex`; `lifeStage` |
-| **type** | string |
-| **format** | default |
-| **unique** |  |
-| **required** |  |
-| **minimum** |  |
-| **maximum** |  |
-| **namespace** | dwcdp |
-| **dcterms:isVersionOf** |  |
-| **dcterms:references** |  |
-| **rdfs:comment** |  |
-| **status** | recommended |
+## New term
+
+* Submitter: Darwin Core Data Package Coordination Team
+* Efficacy Justification (why is this term necessary?): see [Darwin Core Data Package (DwC-DP) Implementation Experience and Feature Report](https://gbif.github.io/dwc-dp/docs/dwc_dp_implementation_feature_reports.pdf)
+* Demand Justification (name at least two organizations that independently need this term): see [Darwin Core Data Package (DwC-DP) Implementation Experience and Feature Report](https://gbif.github.io/dwc-dp/docs/dwc_dp_implementation_feature_reports.pdf)
+* Stability Justification (what concerns are there that this might affect existing implementations?): None
+* Implications for dwciri: namespace (does this change affect a dwciri term version)?: To be determined by DwC-MG
+
+Proposed attributes of the new term:
+
+* Term name (in lowerCamelCase for properties, UpperCamelCase for classes): surveyTargetType
+* Term label (English, not normative): Survey Target Type
+* Organized in Class (e.g., Occurrence, Event, Location, Taxon): SurveyTarget
+* Definition of the term (normative): A scope a dwc:SurveyTarget describes.
+* Usage comments (recommendations regarding content, etc., not normative): Recommended best practice is to use a controlled vocabulary.
+* Examples (not normative): `taxon`; `habitat`; `establishmentMeans`; `growthForm`; `sex`; `lifeStage`
+* Refines (identifier of the broader term this term refines; normative): 
+* Replaces (identifier of the existing term that would be deprecated and replaced by this term; normative): 
+* ABCD 2.06 (XPATH of the equivalent term in ABCD or EFG; not normative): 

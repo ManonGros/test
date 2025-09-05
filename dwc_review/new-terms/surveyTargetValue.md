@@ -1,19 +1,19 @@
-| definitions | context 1 |
-|-|-|
-| **Context - tables concerned** | <ul><li>survey-target</li></ul> |
-| **key** |  |
-| **title** | Survey Target Value |
-| **description** | A value of a characteristic sought for a dwc:SurveyTarget for a given dwc:surveyTargetType. |
-| **comments** | Recommended best practice is to use a controlled vocabulary. |
-| **example** | `Aves`; `oak savannah`; `native`; `tree`; `female`; `adult`; `height`; `weight` |
-| **type** | string |
-| **format** | default |
-| **unique** |  |
-| **required** |  |
-| **minimum** |  |
-| **maximum** |  |
-| **namespace** | dwcdp |
-| **dcterms:isVersionOf** |  |
-| **dcterms:references** |  |
-| **rdfs:comment** |  |
-| **status** | recommended |
+## New term
+
+* Submitter: Darwin Core Data Package Coordination Team
+* Efficacy Justification (why is this term necessary?): see [Darwin Core Data Package (DwC-DP) Implementation Experience and Feature Report](https://gbif.github.io/dwc-dp/docs/dwc_dp_implementation_feature_reports.pdf)
+* Demand Justification (name at least two organizations that independently need this term): see [Darwin Core Data Package (DwC-DP) Implementation Experience and Feature Report](https://gbif.github.io/dwc-dp/docs/dwc_dp_implementation_feature_reports.pdf)
+* Stability Justification (what concerns are there that this might affect existing implementations?): None
+* Implications for dwciri: namespace (does this change affect a dwciri term version)?: To be determined by DwC-MG
+
+Proposed attributes of the new term:
+
+* Term name (in lowerCamelCase for properties, UpperCamelCase for classes): surveyTargetValue
+* Term label (English, not normative): Survey Target Value
+* Organized in Class (e.g., Occurrence, Event, Location, Taxon): SurveyTarget
+* Definition of the term (normative): A value of a characteristic sought for a dwc:SurveyTarget for a given dwc:surveyTargetType.
+* Usage comments (recommendations regarding content, etc., not normative): Recommended best practice is to use a controlled vocabulary.
+* Examples (not normative): `Aves`; `oak savannah`; `native`; `tree`; `female`; `adult`; `height`; `weight`
+* Refines (identifier of the broader term this term refines; normative): 
+* Replaces (identifier of the existing term that would be deprecated and replaced by this term; normative): 
+* ABCD 2.06 (XPATH of the equivalent term in ABCD or EFG; not normative): 

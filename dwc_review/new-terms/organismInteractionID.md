@@ -1,19 +1,19 @@
-| definitions | context 1 |context 2 |
-|-|-|-|
-| **Context - tables concerned** | <ul><li>organism-interaction-agent-role</li><li>organism-interaction-assertion</li><li>organism-interaction-media</li><li>organism-interaction-reference</li></ul> | <ul><li>organism-interaction</li></ul> |
-| **key** | fk | pk |
-| **title** | Organism Interaction ID | Organism Interaction ID |
-| **description** | An identifier for a dwc:OrganismInteraction. | An identifier for a dwc:OrganismInteraction. |
-| **comments** | Recommended best practice is to use a globally unique identifier. | Recommended best practice is to use a globally unique identifier. |
-| **example** |  |  |
-| **type** | string | string |
-| **format** | default | default |
-| **unique** | False | True |
-| **required** | True | True |
-| **minimum** |  |  |
-| **maximum** |  |  |
-| **namespace** | dwcdp | dwcdp |
-| **dcterms:isVersionOf** |  |  |
-| **dcterms:references** |  |  |
-| **rdfs:comment** |  |  |
-| **status** | recommended | recommended |
+## New term
+
+* Submitter: Darwin Core Data Package Coordination Team
+* Efficacy Justification (why is this term necessary?): see [Darwin Core Data Package (DwC-DP) Implementation Experience and Feature Report](https://gbif.github.io/dwc-dp/docs/dwc_dp_implementation_feature_reports.pdf)
+* Demand Justification (name at least two organizations that independently need this term): see [Darwin Core Data Package (DwC-DP) Implementation Experience and Feature Report](https://gbif.github.io/dwc-dp/docs/dwc_dp_implementation_feature_reports.pdf)
+* Stability Justification (what concerns are there that this might affect existing implementations?): None
+* Implications for dwciri: namespace (does this change affect a dwciri term version)?: To be determined by DwC-MG
+
+Proposed attributes of the new term:
+
+* Term name (in lowerCamelCase for properties, UpperCamelCase for classes): organismInteractionID
+* Term label (English, not normative): Organism Interaction ID
+* Organized in Class (e.g., Occurrence, Event, Location, Taxon): OrganismInteraction
+* Definition of the term (normative): An identifier for a dwc:OrganismInteraction.
+* Usage comments (recommendations regarding content, etc., not normative): Recommended best practice is to use a globally unique identifier.
+* Examples (not normative): 
+* Refines (identifier of the broader term this term refines; normative): 
+* Replaces (identifier of the existing term that would be deprecated and replaced by this term; normative): 
+* ABCD 2.06 (XPATH of the equivalent term in ABCD or EFG; not normative): 

@@ -1,19 +1,19 @@
-| definitions | context 1 |context 2 |
-|-|-|-|
-| **Context - tables concerned** | <ul><li>chronometric-age-assertion</li><li>event-assertion</li><li>material-assertion</li><li>media-assertion</li><li>molecular-protocol-assertion</li><li>occurrence-assertion</li><li>organism-assertion</li><li>organism-interaction-assertion</li><li>survey-assertion</li></ul> | <ul><li>nucleotide-analysis-assertion</li></ul> |
-| **key** |  |  |
-| **title** | Assertion References | Assertion References |
-| **description** | A list (concatenated and separated) of dcterms:BibliographicResources associated with a dwc:Assertion. | A list (concatenated and separated) of dcterms:BibliographicResources used in a dwc:Assertion. |
-| **comments** | Recommended best practice is to separate the values in a list with space vertical bar space (` | `). | Recommended best practice is to separate the values in a list with space vertical bar space (` | `). |
-| **example** |  |  |
-| **type** | string | string |
-| **format** | default | default |
-| **unique** |  |  |
-| **required** |  |  |
-| **minimum** |  |  |
-| **maximum** |  |  |
-| **namespace** | dwcdp | dwcdp |
-| **dcterms:isVersionOf** |  |  |
-| **dcterms:references** |  |  |
-| **rdfs:comment** |  |  |
-| **status** | recommended | recommended |
+## New term
+
+* Submitter: Darwin Core Data Package Coordination Team
+* Efficacy Justification (why is this term necessary?): see [Darwin Core Data Package (DwC-DP) Implementation Experience and Feature Report](https://gbif.github.io/dwc-dp/docs/dwc_dp_implementation_feature_reports.pdf)
+* Demand Justification (name at least two organizations that independently need this term): see [Darwin Core Data Package (DwC-DP) Implementation Experience and Feature Report](https://gbif.github.io/dwc-dp/docs/dwc_dp_implementation_feature_reports.pdf)
+* Stability Justification (what concerns are there that this might affect existing implementations?): None
+* Implications for dwciri: namespace (does this change affect a dwciri term version)?: To be determined by DwC-MG
+
+Proposed attributes of the new term:
+
+* Term name (in lowerCamelCase for properties, UpperCamelCase for classes): assertionReferences
+* Term label (English, not normative): Assertion References
+* Organized in Class (e.g., Occurrence, Event, Location, Taxon): Assertion
+* Definition of the term (normative): A list (concatenated and separated) of dcterms:BibliographicResources associated with a dwc:Assertion.
+* Usage comments (recommendations regarding content, etc., not normative): Recommended best practice is to separate the values in a list with space vertical bar space (` | `).
+* Examples (not normative): 
+* Refines (identifier of the broader term this term refines; normative): 
+* Replaces (identifier of the existing term that would be deprecated and replaced by this term; normative): 
+* ABCD 2.06 (XPATH of the equivalent term in ABCD or EFG; not normative): 

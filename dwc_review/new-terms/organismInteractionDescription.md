@@ -8,12 +8,12 @@
 
 Proposed attributes of the new term:
 
-* Term name (in lowerCamelCase for properties, UpperCamelCase for classes): surveyTargetUnit
-* Term label (English, not normative): Survey Target Unit
-* Organized in Class (e.g., Occurrence, Event, Location, Taxon): SurveyTarget
-* Definition of the term (normative): Units associated with a value in dwc:surveyTargetValue.
-* Usage comments (recommendations regarding content, etc., not normative): Recommended best practice is to use a controlled vocabulary.
-* Examples (not normative): `m`; `g`; `years`
+* Term name (in lowerCamelCase for properties, UpperCamelCase for classes): organismInteractionDescription
+* Term label (English, not normative): Organism Interaction Description
+* Organized in Class (e.g., Occurrence, Event, Location, Taxon): OrganismInteraction
+* Definition of the term (normative): A verbatim description of a dwc:OrganismInteraction.
+* Usage comments (recommendations regarding content, etc., not normative): 
+* Examples (not normative): `Mallophora ruficauda capturing an Apis mellifera worker in flight.`
 * Refines (identifier of the broader term this term refines; normative): 
 * Replaces (identifier of the existing term that would be deprecated and replaced by this term; normative): 
 * ABCD 2.06 (XPATH of the equivalent term in ABCD or EFG; not normative): 
